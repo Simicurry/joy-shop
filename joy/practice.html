@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+      font-family: 'poor story',sans-serif;
+      color: white;
+      background-color: black;
+      overflow-x: hidden;
+    }
+    section{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 400px;
+      align-items: center;
+      padding: 100px 20vw;
+    }
+    .blue{
+background-color: blue;
+    }
+    .pink{
+background-color: pink;
+    }
+    .red{
+background-color: red;
+    }
+    .orange{
+background-color: orange;
+    }
+    .darkgray{
+background-color: darkgray;
+    }
+    .yellow{
+background-color: yellow;
+    }
+    .lightblue{
+background-color: lightblue;
+    }
+    .purple{
+background-color: purple;
+    }
+    .curves{
+      position:absolute;
+      height: 255px;
+      width: 100%;
+      bottom: 0;
+    }
+    .curves::before{
+      position: absolute;
+      content: '';
+      display: block;
+      border-radius: 100% 50%;
+      width: 55%;
+      height: 100%;
+      background-color: black;
+      transform: translate(85%,60%);
+    }
+     .curves::after{
+      position: absolute;
+      content: '';
+      display: block;
+      border-radius: 100% 50%;
+      width: 55%;
+      height: 100%;
+      background-color: blue;
+      transform: translate(-5%,45.5%);
+       z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <section class="blue">
+    <h1>nice curves</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam animi repellat, unde sequi blanditiis voluptatum in placeat, nemo voluptatem fuga, quam quos tempore itaque fugit eum repellendus. Quo, cum, est.</p>
+  </section>
+  <div class="curves"></div>
+  <section class="lightgray">
+    <h1>nice curves</h1>
+    <p>Sit, libero numquam consequatur suscipit sint. Ex fugiat consequuntur perspiciatis totam molestiae placeat tempora, vel dolorem adipisci, animi eligendi quia, reprehenderit doloremque architecto et, quasi quisquam a. Dolorum, et, voluptas.</p>
+  </section>
+  <section class="red">
+    <h1>nice curves</h1>
+    <p>Odit dicta dolor numquam doloribus error eveniet ea. Esse voluptas itaque, modi repellat eaque excepturi doloremque aut quaerat numquam inventore voluptates sunt necessitatibus, officiis vel! Praesentium nostrum id ad, debitis.</p>
+  </section>
+  <section class="orange">
+    <h1>nice curves</h1>
+    <p>Explicabo odit illum illo facilis magni adipisci necessitatibus voluptate, voluptatibus culpa corrupti laborum maiores quis earum quaerat, natus, placeat deleniti doloremque eum ullam in inventore molestias! Perspiciatis voluptas, quasi nam.</p>
+  </section>
+  <section class="purple">
+    <h1>nice curves</h1>
+    <p>Animi aliquam odit nostrum voluptate quis rem, neque perferendis quam ut, provident, dolor architecto iusto. Quam architecto, recusandae aspernatur quisquam aliquam, enim rem quis velit officiis voluptatum ab odit ducimus.</p>
+  </section>
+  <section class="lightblue">
+    <h1>nice curves</h1>
+    <p>Magni error debitis cumque laudantium placeat magnam, animi atque, et voluptatem quos quaerat repellendus ipsa maxime, iste cum ab libero perspiciatis qui, doloribus aspernatur ullam. Culpa commodi obcaecati optio, hic!</p>
+  </section>
+  <section class="pink">
+    <h1>nice curves</h1>
+    <p>Laboriosam possimus beatae voluptate doloribus qui repellat mollitia, expedita placeat itaque ex at, magnam, totam nam dolor assumenda! Quas fugit corporis magnam nam! Vel perferendis fugiat culpa nulla, rerum maxime.</p>
+  </section>
+  <section class="darkgray">
+    <h1>nice curves</h1>
+    <p>Aperiam maiores consectetur quidem illum, dolores ut quasi laudantium quibusdam iste tempora illo porro atque doloribus et, earum qui laborum maxime harum nulla culpa reprehenderit repudiandae vitae nesciunt ab! Iure!</p>
+  </section>
+</body>
+</html>
